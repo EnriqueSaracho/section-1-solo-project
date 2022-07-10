@@ -1,9 +1,10 @@
 import React from "react";
+import Info from "./components/Info";
 
 export default function App() {
     return (
-        <div>
-            <h1>Section 1 - Solo Project</h1>
+        <div className="app">
+            <Info />
         </div>
     )
 }
