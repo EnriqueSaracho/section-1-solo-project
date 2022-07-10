@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./app"
 
 ReactDOM.render(
-  <h1>Section 1 - Solo Project</h1>,
+  <App />,
   document.getElementById("root")
 );
