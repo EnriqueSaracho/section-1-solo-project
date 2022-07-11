@@ -14,6 +14,7 @@ body {
 
 .app {
   margin-top: 45px;
+  margin-bottom: 45px;
   background-color: #1a1b21;
   width: fit-content;
   border-radius: 10px;
@@ -120,4 +121,44 @@ body {
   font-size: 12px;
   line-height: 150%;
   color: #dcdcdc;
+}
+
+.footer {
+  margin-top: 24px;
+  width: 320px;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer--btn-facebook {
+  width: 25px;
+  height: 25px;
+  background: #918e9b;
+  font-size: 18px;
+  border: none;
+  border-radius: 3px;
+}
+
+.footer--btn-instagram {
+  margin-right: 25px;
+  margin-left: 25px;
+  width: 25px;
+  height: 25px;
+  background: #918e9b;
+  font-size: 18px;
+  border: none;
+  border-radius: 3px;
+}
+
+.footer--btn-github {
+  width: 25px;
+  height: 25px;
+  background: #918e9b;
+  font-size: 18px;
+  border: none;
+  border-radius: 3px;
 }
